@@ -61,8 +61,6 @@ public class ConfigureNotificationSettings extends DashboardFragment implements
     static final String KEY_SWIPE_DOWN = "gesture_swipe_down_fingerprint_notifications";
     static final String KEY_LOCKSCREEN = "lock_screen_notifications";
 
-    private static final String KEY_MIPUSH = "configure_notifications_mipush";
-
     private static final String KEY_NOTI_DEFAULT_RINGTONE = "notification_default_ringtone";
     private static final int REQUEST_CODE = 200;
     private static final String SELECTED_PREFERENCE_KEY = "selected_preference";
@@ -134,13 +132,6 @@ public class ConfigureNotificationSettings extends DashboardFragment implements
                 advancedCategory.setInitialExpandedChildrenCount(Integer.MAX_VALUE);
                 scrollToPreference(advancedCategory);
             }
-        }
-        final PreferenceCategory mipushCategory =
-                (PreferenceCategory) screen.findPreference(KEY_MIPUSH);
-        try {
-            this.getPackageManager().getApplicationInfo("top.trumeet.mipush", 0);
-        } catch(Exception e) {
-            screen.removePreference(mipushCategory);
         }
     }
 
