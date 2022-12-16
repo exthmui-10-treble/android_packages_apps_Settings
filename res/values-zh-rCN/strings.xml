@@ -4676,10 +4676,6 @@
     <string name="more_settings">更多设置</string>
     <string name="about_exthmui">关于 exTHmUI</string>
 
-    <!-- Screen off fod -->
-    <string name="fod_gesture_title">熄屏指纹</string>
-    <string name="fod_gesture_summary">在未点亮屏幕的情况下使用指纹解锁设备</string>
-
     <string name="bluetooth_message_access_notification_content" msgid="5111712860712823893">"有设备想要访问您的消息。点按可了解详情。"</string>
     <string name="bluetooth_message_access_dialog_title" msgid="9009836130395061579">"要允许访问消息吗？"</string>
     <string name="bluetooth_message_access_dialog_content" msgid="7186694737578788487">"蓝牙设备“<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g>”想要访问您的消息。\n\n您之前没有连接过“<xliff:g id="DEVICE_NAME_1">%2$s</xliff:g>”。"</string>
